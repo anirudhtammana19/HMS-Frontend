@@ -1,0 +1,41 @@
+.search-doctors {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.doctor-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.doctor-card .card-body {
+  padding: 15px;
+}
+
+.doctor-card .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.doctor-card .card-text {
+  font-size: 0.9rem;
+}
+
+.doctor-card .btn-primary {
+  width: 100%;
+  margin-top: 10px;
+}
+
+button {
+  text-align: center;
+}

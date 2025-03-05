@@ -1,0 +1,44 @@
+.sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 20px 15px;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+.sidebar .nav-link.active-link {
+  font-weight: bold;
+  text-decoration: none; 
+  background-color: white;
+  color: rgba(255, 140, 0, 0.92) !important; 
+  border-radius: 15px 0 0 15px;
+}
+
+.sidebar .nav-link {
+  color: white; 
+  margin-left: 30px;
+  transition: color 0.3s, background-color 0.3s; 
+}
+
+.sidebar .nav-link:hover {
+  color: lightgray; 
+}
+

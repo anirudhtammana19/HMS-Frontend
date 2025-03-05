@@ -1,0 +1,41 @@
+.navheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 8px 5px grey;
+  z-index: 2;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #004aad;
+  cursor: pointer;
+}
+
+.nav-buttons .sdn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-signin {
+  background-color: transparent;
+  color: #004aad;
+}
+.btn-signin:hover {
+  background-color:  #004aad;
+  color: #ffffff;
+}
+.btn-register {
+  background-color: #004aad;
+  color: #fff;
+}
+
+.btn-register:hover {
+  background-color: #f2f0f0;
+  color: #004aad;
+}

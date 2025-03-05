@@ -1,0 +1,38 @@
+
+.dashboard-container {
+    display: flex;
+    background-color: #f4f7fc;
+  }
+  
+  .dashboard-sidebar {
+    width: 20%;
+  }
+  
+  .dashboard-main {
+    width: 80%;
+  }
+  
+  .prescription-container {
+    margin-top: 20px;
+    margin-left: 260px;
+    margin-right: 20px;
+    background-color: #fff;
+  }
+  
+  .record-id-container {
+    margin-bottom: 20px;
+
+  }
+  
+  .buttons-container {
+    margin-top: 10px;
+  }
+  
+  .ant-collapse-header {
+    font-size: 16px;
+  }
+  
+  .ant-btn {
+    margin-right: 10px;
+  }
+  

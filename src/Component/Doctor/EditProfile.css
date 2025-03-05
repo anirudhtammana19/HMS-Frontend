@@ -1,0 +1,9 @@
+.wide-modal .modal-dialog {
+    max-width: 900px; 
+    width: 90%; 
+  }
+  
+  .wide-modal .modal-content {
+    padding: 20px;
+  }
+  

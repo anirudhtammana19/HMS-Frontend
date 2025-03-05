@@ -1,0 +1,18 @@
+﻿
+.time-picker-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .time-picker {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .form-control {
+    margin-bottom: 1rem;
+  }
+  
